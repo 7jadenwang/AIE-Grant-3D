@@ -1,0 +1,81 @@
+{
+  "model_filepath": "D:\\Research\\AIE Future\\AIE Grant 3D\\AMME CAD Models\\Bench.stl",
+  "rotation_xyz_deg": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "require_watertight": false,
+  "physics": {
+    "intensity_mw_cm2": 30.0,
+    "exposure_s": 6.0,
+    "dark_s": 2.0,
+    "dt_s": 0.025,
+    "oxygen_diffusivity_m2_s": 4e-10,
+    "xy_pitch_m": 7.6e-06,
+    "layer_height_m": 5e-05,
+    "initial_capacity_mj_cm2": null,
+    "inhibition_reference_mj_cm2": 12.6124,
+    "inhibition_reference_thickness_m": 0.0001,
+    "blur_width_m": 5e-05,
+    "axial_decay_length_m": 0.0001,
+    "b_coefficient": 0.1131,
+    "b_exponent": 0.6038,
+    "pre_slope": 0.0005,
+    "pre_cap": 0.015,
+    "record_every_steps": 600
+  },
+  "geometry": {
+    "source_extents": [
+      60.00100135803223,
+      31.003999710083008,
+      48.0
+    ],
+    "scale_factor": 5.053915653682767e-05,
+    "scaled_extents_m": [
+      0.0030324,
+      0.0015669159946156447,
+      0.002425879513767728
+    ],
+    "voxel_shape_zyx": [
+      49,
+      500,
+      500
+    ],
+    "xy_offsets_pixels": [
+      50,
+      146
+    ],
+    "spacing_m_zyx": [
+      5e-05,
+      7.6e-06,
+      7.6e-06
+    ]
+  },
+  "cross_section": {
+    "axis": "x",
+    "index": 250,
+    "record_every_steps": 600
+  },
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce GTX 1650 Ti",
+  "memory_estimate": {
+    "estimated_peak_bytes": 796250000,
+    "free_bytes": 3450601472,
+    "total_bytes": 4294639616,
+    "allowed_bytes": 3105541324
+  },
+  "diffusion_stability_limit_s": 0.03568773528202208,
+  "simulation_elapsed_s": 391.99999999991735,
+  "runtime_s": 2266.3048524,
+  "assumptions": [
+    "0 mM TEMPO; oxygen is the only inhibitor",
+    "closed no-flux 3D oxygen reservoir",
+    "uniform oxygen diffusivity in liquid and cured regions",
+    "no air influx, fluid flow, peel deformation, or future-layer evolution",
+    "constant lateral blur with propagation depth",
+    "axial decay length is an uncalibrated v1 parameter"
+  ],
+  "surface_produced": true,
+  "surface_threshold": 0.77
+}

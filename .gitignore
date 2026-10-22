@@ -1,0 +1,45 @@
+/.results
+/.test
+/.claude
+/.docs
+/Note
+/260728_circles
+/.codex
+/.worktrees
+/.vscode
+/AIE Reproduce.py
+/AIE _Tim.py
+/data
+/From_Scratch
+/Inhibition_Energy Fitter.ipynb
+/inhibition_time_vs_intensity.png
+/intensityOptimizer_accum.py
+/Lshape.png
+/New Model Test_2026_05_22
+/optc.png
+/optl.png
+/optl_Swiss.png
+/output
+/PROJECT_SUMMARY.md
+/ssim.ipynb
+/Swiss.py
+/test_repro
+/test_repro_no_LS
+/test_repro_optl
+/Untitled-1.ipynb
+/__pycache__
+/test_repro
+/.DS_Store
+/PastDataFiles
+/GEO/seg
+
+# generated simulation/optimization output images (AIE_TEMPOv1.1.py), any run folder
+**/aaa_*.png
+**/exp_*.tiff
+**/DoC_*.png
+**/O2_*.png
+**/TEMPO_*.png
+**/allDoC.gif
+**/allO2.gif
+**/allTEMPO.gif
+**/**_scalebar.png
